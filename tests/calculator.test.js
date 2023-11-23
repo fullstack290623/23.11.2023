@@ -11,7 +11,7 @@ describe('Testing basic functionallity of the calculator' , () => {
         assert.strictEqual(expected, actual)
     })
 
-    it('add simple numbers [NaN + 1]', () => {
+    it('add simple numbers [Infinity + 1]', () => {
         const actual = calc.add(Infinity, 1)
 
         const expected = Infinity

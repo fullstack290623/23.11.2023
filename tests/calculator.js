@@ -6,9 +6,7 @@ const add = (num1, num2) => {
     if (num1 == NaN || num2 == NaN) {
         return NaN
     }    
-    if (num1 == Infinity || num2 == Infinity) {
-        return Infinity
-    }        
+      
     return num1 + num2
 }
 

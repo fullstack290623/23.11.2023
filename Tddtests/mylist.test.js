@@ -69,8 +69,8 @@ describe('Testing functionallity of the list' , () => {
         })
     }) 
     // add test for these scenarios:
-    // max on empty list
-    // min on empty list
-    // avg on empty list
+    // max on empty list should create an error
+    // min on empty list should create an error
+    // avg on empty list should create an error
 
 })

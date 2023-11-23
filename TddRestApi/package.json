@@ -1,0 +1,19 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "knex": "^3.0.1",
+    "mocha": "^10.2.0",
+    "should": "^13.2.3",
+    "sqlite3": "^5.1.6"
+  }
+}
