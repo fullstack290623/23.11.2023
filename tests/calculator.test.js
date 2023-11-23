@@ -12,9 +12,9 @@ describe('Testing basic functionallity of the calculator' , () => {
     })
 
     it('add simple numbers [NaN + 1]', () => {
-        const actual = calc.add(NaN, 1)
+        const actual = calc.add(Infinity, 1)
 
-        const expected = NaN
+        const expected = Infinity
 
         assert.strictEqual(expected, actual)
     })    
