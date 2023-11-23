@@ -18,6 +18,7 @@ const div = (num1, num2) => {
     if (num2 == 0) {
         throw new Error(`cannot divide by zero. ${num1} / ${num2}`)
     }
+
     return num1 / num2
 }
 
