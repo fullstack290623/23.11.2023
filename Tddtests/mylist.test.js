@@ -68,5 +68,9 @@ describe('Testing functionallity of the list' , () => {
             mylist.remove()
         })
     }) 
+    // add test for these scenarios:
+    // max on empty list
+    // min on empty list
+    // avg on empty list
 
 })
