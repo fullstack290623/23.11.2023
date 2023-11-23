@@ -10,4 +10,10 @@ describe('Testing basic functionallity of the calculator' , () => {
 
         assert.strictEqual(expected, actual)
     })
+
+    // add test for add with zerto
+    // add test for sub
+    // add test for mul
+    // add test for div 
+    // add test for div by zero
 })
