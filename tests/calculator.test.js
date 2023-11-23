@@ -11,6 +11,14 @@ describe('Testing basic functionallity of the calculator' , () => {
         assert.strictEqual(expected, actual)
     })
 
+    it('add simple numbers [NaN + 1]', () => {
+        const actual = calc.add(NaN, 1)
+
+        const expected = NaN
+
+        assert.strictEqual(expected, actual)
+    })    
+
     it('minus simple numbers [9 - 4]', () => {
         const actual = calc.sub(9, 4)
 
